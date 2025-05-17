@@ -37,7 +37,7 @@ except:
     pickle.dump(le_job, open("le_job.pkl", "wb"))
 
 # Load for user input
-salary_df = pd.read_csv("Salary.csv")  # For dropdown options + visualization
+salary_df = pd.read_csv("Salary_Data.csv")  # For dropdown options + visualization
 
 # User inputs
 age = st.slider("Age", 18, 70, 30)
