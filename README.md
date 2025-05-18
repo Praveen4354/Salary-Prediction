@@ -8,24 +8,6 @@ This project aims to predict salaries based on various factors, such as age, gen
 ### Handling Missing Values
 We checked for missing values in the dataset and removed rows with missing data, ensuring a clean dataset for modeling.
 
-## Data Visualization
-
-
-### Top 10 Highest Earning Professions
-![Gender Distribution](images/Top10.png)
-*A Bar plot depicting the highest paying job titles versus the mean salary.*
-
-### Distribution of Continuous Variables
-![Age Distribution](images/Distribution.png)
-*This histogram shows the distribution of continuous variables in the dataset.*
-
-### Distribution of Education and Gender
-![Salary vs. Education](images/ed&gender_distribution.png)
-*A plot displaying the Education Level and Gender.*
-
-### Correlation Heatmap
-![Correlation Heatmap](images/Heatmap.png)
-*A heatmap illustrating the correlation between different features.*
 
 ## Model Building and Evaluation
 
@@ -37,7 +19,6 @@ We explored various machine learning algorithms, including Linear Regression, De
 Each model's performance was evaluated using several regression metrics, including Mean Squared Error (MSE), Mean Absolute Error (MAE), Root Mean Squared Error (RMSE), and R-squared (R2) score. These metrics help assess the accuracy and reliability of the predictions.
 
 ### Feature Importance
-![Feature Importance](images/Feature_Imp.png)
 *A bar chart depicting the importance of different features in predicting salary.*
 
 ## Results
